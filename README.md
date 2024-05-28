@@ -31,15 +31,15 @@ La jefatura nacional de ventas hoy requiere obtener la data para un nuevo desarr
 ● Precio “Precio del producto”
 ● Fecha_compra “Fecha de la compra”
 
-[1.](#punto_1) Para cada uno de los campos antes mencionados, por favor define que tipo de datos debe de ser (ej: Char, Float, DateTime…). ✅
-[2.](#punto_2) Identificar cuantas tablas debe de tener la base de datos y adjuntar el diagrama entidad relación, dar una breve descripción del diseño.
-[3.](#punto_3) Debe de proponer una aplicación que puedan utilizar los vendedores de la organización para realizar la captura de la data, mediante un dibujo realice de manera simple un diseño de interfaz del usuario.
+[1](#1). Para cada uno de los campos antes mencionados, por favor define que tipo de datos debe de ser (ej: Char, Float, DateTime…). ✅
+[2](#2). Identificar cuantas tablas debe de tener la base de datos y adjuntar el diagrama entidad relación, dar una breve descripción del diseño. ✅
+[3](#3) Debe de proponer una aplicación que puedan utilizar los vendedores de la organización para realizar la captura de la data, mediante un dibujo realice de manera simple un diseño de interfaz del usuario.
 
 Como ya cuenta con una data de clientes por favor resuelva al menos dos de los siguientes enunciados y colocar una imagen del script o colocar el código desarrollado:
 
-4. Escribe un script en Python que segmente a los clientes en dos grupos: "Nuevos" (clientes registrados en los últimos 30 días) y "Antiguos" (clientes registrados hace más de 30 días).
-5. Escribe un script en Python que identifique el producto más comprado por cada cliente.
-6. Escribe un script en Python que calcule el gasto total de cada cliente.
+[4](#4). Escribe un script en Python que segmente a los clientes en dos grupos: "Nuevos" (clientes registrados en los últimos 30 días) y "Antiguos" (clientes registrados hace más de 30 días).
+[5](#5). Escribe un script en Python que identifique el producto más comprado por cada cliente.
+[6](#6). Escribe un script en Python que calcule el gasto total de cada cliente.
 
 ## Guía de usuario
 
@@ -49,9 +49,7 @@ Como ya cuenta con una data de clientes por favor resuelva al menos dos de los s
 
 ---
 
-## Punto 1
-
----
+## 1
 
 ● Nombre “Nombre del cliente”: Tipo de dato string
 ● Cliente_Id “Identificador único del cliente”: Tipo de dato int
@@ -62,6 +60,10 @@ Como ya cuenta con una data de clientes por favor resuelva al menos dos de los s
 ● Cantidad “Cantidad de productos comprados”: Tipo de dato int
 ● Precio “Precio del producto”: Tipo de dato float
 ● Fecha_compra “Fecha de la compra”: Tipo de dato DateTime
+
+## 2
+
+![Diagrama entidad-relación](diagrama_entidad_relacion.png)
 
 ## Cómo contribuir
 
@@ -83,3 +85,4 @@ Para desarrollar la solución propuesta se hizo uso de algunas páginas. La prue
 
 Para obtener el listado de algunos productos de zenú así como el precio: https://losprecios.co/zenú_m
 Para desarrollar el diseño de la interfaz de usuario: https://creately.com/es/lp/herramienta-de-maquetacion-de-iu/
+Para diseñar el diagrama de modelo entidad relación: https://lucid.app/
