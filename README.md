@@ -7,7 +7,6 @@
 ---
 
 - [Descripción](#descripción)
-- [Guía de usuario](#guía-de-usuario)
 - [Solución](#solución)
 - [Dependencias](#dependencias)
 - [Cómo contribuir](#cómo-contribuir)
@@ -40,11 +39,7 @@ Como ya cuenta con una data de clientes por favor resuelva al menos dos de los s
 
 [4](#4). Escribe un script en Python que segmente a los clientes en dos grupos: "Nuevos" (clientes registrados en los últimos 30 días) y "Antiguos" (clientes registrados hace más de 30 días). ✅<br>
 [5](#5). Escribe un script en Python que identifique el producto más comprado por cada cliente. ✅<br>
-[6](#6). Escribe un script en Python que calcule el gasto total de cada cliente.
-
-## Guía de usuario
-
----
+[6](#6). Escribe un script en Python que calcule el gasto total de cada cliente. ✅
 
 ## Solución
 
@@ -89,6 +84,12 @@ Para habilitar la opción de llenar la información de la factura es necesario q
 ![Script productos_por_cliente](./evidencias/script_productos_por_cliente.png)
 
 <strong>Descripción:<strong> El script muestra en el output la lista del producto más comprado por cada cliente. Algunos clientes tienen la misma cantidad de productos comprados para diferentes productos, el script guarda el último producto que cumple la condición y muestra ese producto.
+
+## 6
+
+![Script gastos_por_cliente](./evidencias/script_gastos_por_cliente.png)
+
+<strong>Descripción:<strong> El script muestra en el output el total de gastos que tuvo cada cliente en todas las compras que están relacionas a él.
 
 ## Dependencias
 
