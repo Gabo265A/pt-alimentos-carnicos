@@ -9,6 +9,7 @@
 - [Descripción](#descripción)
 - [Guía de usuario](#guía-de-usuario)
 - [Solución](#solución)
+- [Dependencias](#dependencias)
 - [Cómo contribuir](#cómo-contribuir)
 - [Autor/es](#autores)
 - [Información adicional](#información-adicional)
@@ -38,7 +39,7 @@ La jefatura nacional de ventas hoy requiere obtener la data para un nuevo desarr
 Como ya cuenta con una data de clientes por favor resuelva al menos dos de los siguientes enunciados y colocar una imagen del script o colocar el código desarrollado:
 
 [4](#4). Escribe un script en Python que segmente a los clientes en dos grupos: "Nuevos" (clientes registrados en los últimos 30 días) y "Antiguos" (clientes registrados hace más de 30 días). ✅<br>
-[5](#5). Escribe un script en Python que identifique el producto más comprado por cada cliente.<br>
+[5](#5). Escribe un script en Python que identifique el producto más comprado por cada cliente. ✅<br>
 [6](#6). Escribe un script en Python que calcule el gasto total de cada cliente.
 
 ## Guía de usuario
@@ -81,7 +82,20 @@ Para habilitar la opción de llenar la información de la factura es necesario q
 
 ![Script segmentar_clientes](./evidencias/script_segmentar_clientes.png)
 
-<strong>Descripción:<strong> El script muestra en el output la lista de clientes nuevos y antiguos que se encuentran dentro de la base de datos. Para identificar mejor cada cliente, se muestra el número del id y el nombre. Todos los datos son extraídos desde la base de datos que se encuentra en el archivo excel.
+<strong>Descripción:<strong> El script muestra en el output la lista de clientes nuevos y antiguos que se encuentran dentro de la base de datos. Para identificar mejor cada cliente, se muestra el número del ID y el nombre. Todos los datos son extraídos desde la base de datos que se encuentra en el archivo excel.
+
+## 5
+
+![Script productos_por_cliente](./evidencias/script_productos_por_cliente.png)
+
+<strong>Descripción:<strong> El script muestra en el output la lista del producto más comprado por cada cliente. Algunos clientes tienen la misma cantidad de productos comprados para diferentes productos, el script guarda el último producto que cumple la condición y muestra ese producto.
+
+## Dependencias
+
+Este es el listado de las librerías que se usaron para desarrollar la prueba. Para instalarlas es necesario que tengas configurado correctamente pip.
+
+    pip install pandas
+    pip install openpyxl
 
 ## Cómo contribuir
 
