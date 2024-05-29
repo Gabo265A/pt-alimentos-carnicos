@@ -32,12 +32,12 @@ La jefatura nacional de ventas hoy requiere obtener la data para un nuevo desarr
 ● Fecha_compra “Fecha de la compra”<br>
 
 [1](#1). Para cada uno de los campos antes mencionados, por favor define que tipo de datos debe de ser (ej: Char, Float, DateTime…). ✅<br>
-[2](#2). Identificar cuantas tablas debe de tener la base de datos y adjuntar el diagrama entidad relación, dar una breve descripción del diseño.x ✅<br>
+[2](#2). Identificar cuantas tablas debe de tener la base de datos y adjuntar el diagrama entidad relación, dar una breve descripción del diseño. ✅<br>
 [3](#3). Debe de proponer una aplicación que puedan utilizar los vendedores de la organización para realizar la captura de la data, mediante un dibujo realice de manera simple un diseño de interfaz del usuario. ✅
 
 Como ya cuenta con una data de clientes por favor resuelva al menos dos de los siguientes enunciados y colocar una imagen del script o colocar el código desarrollado:
 
-[4](#4). Escribe un script en Python que segmente a los clientes en dos grupos: "Nuevos" (clientes registrados en los últimos 30 días) y "Antiguos" (clientes registrados hace más de 30 días).<br>
+[4](#4). Escribe un script en Python que segmente a los clientes en dos grupos: "Nuevos" (clientes registrados en los últimos 30 días) y "Antiguos" (clientes registrados hace más de 30 días). ✅<br>
 [5](#5). Escribe un script en Python que identifique el producto más comprado por cada cliente.<br>
 [6](#6). Escribe un script en Python que calcule el gasto total de cada cliente.
 
@@ -71,11 +71,17 @@ El id del cliente será la cédula, ya que este es un documento único, no habr�
 
 ## 3
 
-![Diagrama entidad-relación](./evidencias/interfaz_de_usuario.png)
+![Interfaz de usuario](./evidencias/interfaz_de_usuario.png)
 
 <strong>Descripción:<strong> El diseño propuesto facilita a los vendedores el trabajo. Solicita primero que se escriba la cédula del cliente para buscar la información en la base de datos. Al dar click en el botón buscar el campo del nombre se autocompletará.
 
 Para habilitar la opción de llenar la información de la factura es necesario que el cliente se encuentre registrado en la base de datos, la idea principal es evitar errores al intentar guardar información de un cliente que no esté en la tabla de clientes. El total subtotal y el total se calcularían de forma automática, y para evitar errores al guardar la información, lo ideal sería que el input de la fecha validé si el formato ingresado es el correcto.
+
+## 4
+
+![Script segmentar_clientes](./evidencias/script_segmentar_clientes.png)
+
+<strong>Descripción:<strong> El script muestra en el output la lista de clientes nuevos y antiguos que se encuentran dentro de la base de datos. Para identificar mejor cada cliente, se muestra el número del id y el nombre. Todos los datos son extraídos desde la base de datos que se encuentra en el archivo excel.
 
 ## Cómo contribuir
 
