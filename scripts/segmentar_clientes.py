@@ -4,7 +4,7 @@ import datetime as dt
 input_cols = [1,2,4] # Columna client_id, nombre y fecha registro
 current_date = dt.datetime.now().date() # Fecha actual
 
-df = pd.read_excel('../data/alimentos cárnicos - data.xlsx', sheet_name='Información', header=2, usecols=input_cols) # Se lee el archivo de Excel
+df = pd.read_excel('../data/alimentos cárnicos - data.xlsx', sheet_name='Clientes', header=2, usecols=input_cols) # Se lee el archivo de Excel
 
 dates = pd.to_datetime(df["Fecha_registro"], format='%d/%m/%Y', errors='coerce').dropna().sort_values(ascending=True) # Se convierten las fechas a formato datetime y se eliminan los valores nulos
 
